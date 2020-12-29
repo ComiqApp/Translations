@@ -1,5 +1,6 @@
 <?php
-function lang($txt){
+function lang($txt)
+{
     static $lang = array(
     // home page
     'html_dir' => 'ltr',
@@ -323,10 +324,15 @@ function lang($txt){
     'signup_username_should_be_4' => 'Numbers and letters are allowed',
     'signup_username_should_be_5' => 'White spaces not allowed between words',
     'username_not_allowed' => 'Error in username',
-    'username_not_exists' => 'User name not exists! No User name like that you entered',
-    'friends' => 'Friedns',
+    'username_not_exists' => 'Could not find a member with that username',
+    'friends' => 'Friends',
     'requests' => 'Requests',
     'continue_reading' => 'Continue reading',
+    'display' => 'Display',
+    'support' => 'Support',
+    'blog' => 'Blog',
+    'top_comics' => 'Today\'s top comics:',
+    'my_feed' => 'My feed:'
 
 
    // ==========================================
@@ -334,5 +340,3 @@ function lang($txt){
     );
     return $lang[$txt];
 }
-
-?>
