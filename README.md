@@ -16,4 +16,6 @@ Translations are manually approved via pull-requests by Comiq staff so hiding se
 ### Current supported languages:
 `English` - **90%**
 
-`Arabic` - **85%**
+`Arabic` - **80%**
+
+`Turkish` - **85%**
